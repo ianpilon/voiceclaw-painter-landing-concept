@@ -55,30 +55,54 @@
 
   <!-- Hero Section -->
   <section class="max-w-6xl mx-auto px-6 pt-20 pb-16">
-    <div class="max-w-3xl">
-      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-50 border border-orange-200 mb-8">
-        <span class="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
-        <span class="text-xs font-semibold text-orange-700 uppercase tracking-wide">Built for small-shop painters</span>
+    <div class="grid md:grid-cols-5 gap-10 lg:gap-16 items-center mb-4">
+      <div class="md:col-span-3">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-50 border border-orange-200 mb-8">
+          <span class="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
+          <span class="text-xs font-semibold text-orange-700 uppercase tracking-wide">Built for small-shop painters</span>
+        </div>
+        <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+          Be the painter <span class="gradient-hero-text">homeowners pick</span>
+          before the in-home visit.
+        </h1>
+        <p class="text-lg text-slate-600 mb-10 leading-relaxed">
+          Homeowners book three estimates and pick middle price before they ever pick up the phone. If you look the same online as the chuck-in-a-truck guy, you've already lost the decision. VoiceClaw builds the presence that tips it your way before the in-home visit, answers your phone while you're cutting trim, and keeps you in the lineup when AI assistants look for a painter.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-3 mb-6">
+          <button class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-accent-orange text-white font-semibold text-base hover:shadow-lg transition-all">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            Try the voice setup now →
+          </button>
+          <button class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-white border-2 border-slate-300 text-slate-900 font-semibold text-base hover:bg-slate-50 transition-all">
+            Book a 15-min intro call →
+          </button>
+        </div>
+        <p class="text-sm text-slate-500">
+          <strong class="text-slate-700">Under 5 minutes</strong> on a phone call. That's your whole setup. No credit card. No forms. No dashboard to learn.
+        </p>
       </div>
-      <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
-        Be the painter <span class="gradient-hero-text">homeowners pick</span>
-        before the in-home visit.
-      </h1>
-      <p class="text-lg text-slate-600 mb-10 leading-relaxed">
-        Homeowners book three estimates and pick middle price before they ever pick up the phone. If you look the same online as the chuck-in-a-truck guy, you've already lost the decision. VoiceClaw builds the presence that tips it your way before the in-home visit, answers your phone while you're cutting trim, and keeps you in the lineup when AI assistants look for a painter.
-      </p>
-      <div class="flex flex-col sm:flex-row gap-3 mb-6">
-        <button class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-accent-orange text-white font-semibold text-base hover:shadow-lg transition-all">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-          Try the voice setup now →
-        </button>
-        <button class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-white border-2 border-slate-300 text-slate-900 font-semibold text-base hover:bg-slate-50 transition-all">
-          Book a 15-min intro call →
-        </button>
+      <div class="md:col-span-2">
+        <div class="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-slate-200">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="hero-painter-500.webp 500w, hero-painter-1000.webp 696w"
+              sizes="(max-width: 768px) 100vw, 40vw"
+            />
+            <img
+              src="hero-painter-ai-lineup.jpg"
+              alt="Homeowner holding a phone showing a ChatGPT response listing top-rated painters near them, ranked by ratings and reviews, demonstrating how AI assistants decide which painters show up before the in-home visit"
+              class="w-full h-auto"
+              loading="eager"
+              width="696"
+              height="697"
+            />
+          </picture>
+        </div>
+        <p class="text-center text-xs text-slate-400 mt-3 italic">
+          The AI shortlist homeowners see before they ever call.
+        </p>
       </div>
-      <p class="text-sm text-slate-500 mb-12">
-        <strong class="text-slate-700">Under 5 minutes</strong> on a phone call. That's your whole setup. No credit card. No forms. No dashboard to learn.
-      </p>
     </div>
 
     <!-- Stats Row -->
